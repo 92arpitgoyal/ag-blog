@@ -8,7 +8,8 @@ subtitle: 2011–2021, my first experience of living on my own, decade in which 
   found my first job and somewhere somehow myself, maybe.
 thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1650731987/1_sizaZa1cqGsV_MxskFLq7A_u2wglu.jpg
 content_img_path: ''
-excerpt: ''
+excerpt: 2011–2021, my first experience of living on my own, decade in which I graduated,
+  found my first job and somewhere somehow myself, maybe.
 url: ''
 is_featured: true
 

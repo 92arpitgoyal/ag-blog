@@ -14,4 +14,3 @@ url: ''
 is_featured: true
 
 ---
-2011–2021, my first experience of living on my own, decade in which I graduated, found my first job and somewhere somehow myself, maybe.

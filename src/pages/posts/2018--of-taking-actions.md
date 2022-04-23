@@ -9,7 +9,7 @@ subtitle: ''
 content_img_path: ''
 url: https://medium.com/@arpit_goyal/2018-of-taking-actions-8a5ca2f28630
 is_external: true
-is_featured: false
+is_featured: true
 tags: []
 
 ---

@@ -10,7 +10,7 @@ thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1650731987/
 content_img_path: ''
 excerpt: 2011–2021, my first experience of living on my own, decade in which I graduated,
   found my first job and somewhere somehow myself, maybe.
-url: ''
+url: https://arpit-goyal.medium.com/10-years-in-10-lines-e18a8c3e9b0a
 is_featured: true
 
 ---

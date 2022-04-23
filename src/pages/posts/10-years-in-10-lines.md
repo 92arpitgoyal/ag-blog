@@ -9,6 +9,6 @@ thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1650731987/
 content_img_path: ''
 excerpt: ''
 url: ''
-is_featured: false
+is_featured: true
 
 ---

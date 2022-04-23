@@ -58,6 +58,7 @@ fields:
   description: Is this post the featured post
 pages:
 - src/pages/posts/10-tips-to-getting-started-in-a-professional-life.md
+- src/pages/posts/10-years-in-10-lines.md
 - src/pages/posts/2018--of-taking-actions.md
 - src/pages/posts/Customizing-Angular-UI-Bootstrap--Directives.md
 - src/pages/posts/Dark-side-of-working-at-Mass-Recruiting-Companies.md

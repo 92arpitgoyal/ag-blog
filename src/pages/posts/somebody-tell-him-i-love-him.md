@@ -13,3 +13,4 @@ url: https://arpit-goyal.medium.com/somebody-tell-him-i-love-him-8bc326e6e037
 is_featured: false
 
 ---
+Still incapable of expressing how I feel, and can’t just put his photo on my story and be done with it.

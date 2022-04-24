@@ -48,6 +48,17 @@ export default class ProductPortfolio extends React.Component {
                 </div>
               </div>
             {/*</div>*/}
+            <div className="container is-fluid">
+              <div className="columns is-vcentered">
+                {_.map(_.get(post, 'frontmatter.content_images'), url => {
+                    return (
+                      <div className="column">
+                        <img className="thumbnail" src={safePrefix(url)} />
+                      </div>
+                    )
+                })}
+              </div>
+            </div>
           </div>
         </article>
       )

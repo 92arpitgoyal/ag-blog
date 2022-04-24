@@ -72,7 +72,7 @@ export default class ProductPortfolio extends React.Component {
               <header className="post-header">
                 <h1 className="title is-1">{_.get(this.props, 'pageContext.frontmatter.title')}</h1>
                 {_.get(this.props, 'pageContext.frontmatter.subtitle') && 
-                <div className="subtitle is-3">
+                <div className="subtitle is-4">
                   {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
                 </div>
                 }

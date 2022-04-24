@@ -32,9 +32,7 @@ export default class ProductPortfolio extends React.Component {
                         <time className="published"
                         dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
                       </div>*/}
-                      <h2 className="post-title is-marginless">
-                        <a {...linkAttributes} href={safePrefix(_.get(post, 'url'))} rel="bookmark">{_.get(post, 'frontmatter.title')}</a>
-                      </h2>
+                      <h2 className="post-title is-marginless">{_.get(post, 'frontmatter.title')}</h2>
                     </header>
                   </div>
                   <div className="column is-two-fifths">

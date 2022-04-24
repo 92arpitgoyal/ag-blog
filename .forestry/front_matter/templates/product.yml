@@ -1,4 +1,4 @@
----
+  ---
 label: Product
 hide_body: false
 fields:
@@ -16,9 +16,19 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- name: date
+- name: startDate
   type: datetime
-  label: Date
+  label: Start Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: endDate
+  type: datetime
+  label: End Date
   description: ''
   config:
     required: true

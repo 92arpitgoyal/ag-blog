@@ -44,6 +44,10 @@ fields:
   name: content_img_path
   label: Alternative Featured Image
   description: The image shown in the single post.
+- name: content_images
+  type: image_gallery
+  config: {}
+  label: Content Images
 - type: text
   name: excerpt
   label: Excerpt

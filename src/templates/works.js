@@ -14,7 +14,7 @@ export default class ProductPortfolio extends React.Component {
         linkAttributes.rel = "noopener noreferrer";
       }
       return (
-        <article key={post_idx} className="">
+        <article key={post_idx} className="work-card">
           <div className="">
             {_.get(post, 'frontmatter.thumb_img_path') && 
               (

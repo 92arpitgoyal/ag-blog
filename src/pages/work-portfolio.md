@@ -10,7 +10,7 @@ excerpt: Here's my Work Portfolio, this includes all the projects I did as a par
   of companies I worked with, this includes full-time, part-time and freelance works.
 keywords: '"arpit", "goyal", "mumbai", "Jaipur", "Product Manager", "UX designer",
   "india", "developer", "frontend", "arpit goyal", "goyalarpit", "arpitgoyal"'
-subtitle: For the past 7+ years I've worked at the intersection of design and technology
-  building people-focused experiences.
+subtitle: For the past 7+ years I've worked with design and technology for building
+  people-focused experiences.
 
 ---

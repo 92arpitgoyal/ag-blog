@@ -72,7 +72,7 @@ export default class ProductPortfolio extends React.Component {
         return (
             <Layout {...this.props}>
               <header className="post-header">
-                <h1 className="post-title">design. engineering. innovation.</h1>
+                <h1 className="post-title">{_.get(this.props, 'pageContext.frontmatter.subtitle')}</h1>
                 {_.get(this.props, 'pageContext.frontmatter.subtitle') && 
                 <div className="post-subtitle">
                   {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle'))}

@@ -18,5 +18,6 @@ I worked as a Product Manager at MTX B2B, where I shipped a variety of products 
 I also built products from the ground up like "Code Blue," which assists emergency medical responders in navigating the situation and assisting medical emergencies like cardiac or respiratory arrest.
 
 ![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735902/Code_Blue_-_iPad_mbmvub.png)
-
-![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735951/add_member_s3yrko.png)![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735967/Card_page_cbglk1.png)![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735984/opiate_fkyhwg.png)
+![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735951/add_member_s3yrko.png)
+![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735967/Card_page_cbglk1.png)
+![](https://res.cloudinary.com/arpit-goyal/image/upload/v1650735984/opiate_fkyhwg.png)

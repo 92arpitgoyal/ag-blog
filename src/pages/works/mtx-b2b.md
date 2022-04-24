@@ -16,6 +16,13 @@ content_images:
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1650735951/add_member_s3yrko.png
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1650735967/Card_page_cbglk1.png
 - https://res.cloudinary.com/arpit-goyal/image/upload/v1650735984/opiate_fkyhwg.png
+description: '<p>I worked as a Product Manager at MTX B2B, where I shipped a variety
+  of products for the Education, Public sectors, but primarily the HealthCare industry.
+  I contributed to critical products such as COVID–19 self-assessment, contact tracing,
+  syndromic mapping, and vaccination apps(links: NYC, Arizona, Florida, etc).</p><p>I
+  also built products from the ground up like "Code Blue," which assists emergency
+  medical responders in navigating the situation and assisting medical emergencies
+  like cardiac or respiratory arrest.</p>'
 
 ---
 I worked as a Product Manager at MTX B2B, where I shipped a variety of products for the Education, Public sectors, but primarily the HealthCare industry. I contributed to critical products such as COVID–19 self-assessment, contact tracing, syndromic mapping, and vaccination apps(links: NYC, Arizona, Florida, etc). 

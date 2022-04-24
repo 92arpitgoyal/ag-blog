@@ -86,7 +86,6 @@ fields:
 pages:
 - src/pages/works/boxmyspace.md
 - src/pages/works/decurtis-corporation.md
-- src/pages/works/explara.md
 - src/pages/works/mtx-b2b.md
 - src/pages/works/parallel-labs.md
 - src/pages/works/start-with-thank-you.md

@@ -22,7 +22,7 @@ export default class ProductPortfolio extends React.Component {
             </div>
             <div className="container is-fluid">
               {htmlToReact(_.get(post, 'frontmatter.description'))}
-              <div className="columns is-vcentered">
+              <div className="columns">
                 {_.map(_.get(post, 'frontmatter.content_images'), url => {
                     return (
                       <div className="column">

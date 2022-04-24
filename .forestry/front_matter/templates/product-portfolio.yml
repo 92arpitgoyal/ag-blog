@@ -41,5 +41,10 @@ fields:
   default: product-portfolio
   config:
     required: true
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
 pages:
 - src/pages/product-portfolio.md

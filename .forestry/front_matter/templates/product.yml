@@ -16,7 +16,7 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- name: startDate
+- name: start_date
   type: datetime
   label: Start Date
   description: ''
@@ -26,7 +26,7 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: endDate
+- name: end_date
   type: datetime
   label: End Date
   description: ''

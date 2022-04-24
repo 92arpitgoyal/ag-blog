@@ -1,6 +1,7 @@
 ---
 tags: []
-date: 2022-04-23T23:09:21+05:30
+start_date: 2019-07-11T09:00:43+05:30
+end_date: 2019-07-11T09:00:43+05:30
 template: post
 title: MTX B2B
 subtitle: Product Manager - Healthcare

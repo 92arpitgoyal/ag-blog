@@ -3,7 +3,8 @@ tags: []
 template: post
 title: Sketching
 subtitle: Sketching ideas regarding the design and functionality
-date: 2019-07-05T18:30:00.000+00:00
+start_date: 2019-07-11T09:00:43+05:30
+end_date: 2019-07-11T09:00:43+05:30
 thumb_img_path: https://res.cloudinary.com/arpit-goyal/image/upload/v1562772588/6.jpg
 content_img_path: ''
 excerpt: Sketching ideas regarding the design and functionality

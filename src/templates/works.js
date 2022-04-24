@@ -16,13 +16,13 @@ export default class ProductPortfolio extends React.Component {
       return (
         <article key={post_idx} className="work-card">
           <div className="">
-            {_.get(post, 'frontmatter.thumb_img_path') && 
+            {/*_.get(post, 'frontmatter.thumb_img_path') && 
               (
                 <a {...linkAttributes} className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>
                   <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
                 </a>
               )
-            }
+            */}
             {/*<div className="post-card-content">*/}
               <div className="container is-fluid">
                 <div className="columns is-vcentered">

@@ -14,8 +14,8 @@ export default class ProductPortfolio extends React.Component {
         linkAttributes.rel = "noopener noreferrer";
       }
       return (
-        <article key={post_idx} className="post post-card">
-          <div className="post-card-inside">
+        <article key={post_idx} className="">
+          <div className="">
             {_.get(post, 'frontmatter.thumb_img_path') && 
               (
                 <a {...linkAttributes} className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>

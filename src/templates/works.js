@@ -18,6 +18,7 @@ export default class ProductPortfolio extends React.Component {
           <div className="">
             <div className="container is-fluid is-vcentered">
               <h2 className="post-title is-marginless">{_.get(post, 'frontmatter.title')}</h2>
+              <p className="post-subtitle">{_.get(post, 'frontmatter.subtitle')}</p>
             </div>
             <div className="container is-fluid">
               {htmlToReact(_.get(post, 'frontmatter.description'))}

@@ -32,7 +32,9 @@ export default class ProductPortfolio extends React.Component {
                 })}
               </div>
             </div>
-            <a {...linkAttributes} className="button is-primary is-outlined" href={safePrefix(_.get(post, 'url'))}>Read more</a>
+            <div className="container is-fluid">
+              <a {...linkAttributes} className="button is-primary is-outlined" href={safePrefix(_.get(post, 'url'))}>Read more</a>
+            </div>
           </div>
         </article>
       )

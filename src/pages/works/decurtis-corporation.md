@@ -1,7 +1,7 @@
 ---
 tags: []
-start_date: 2019-07-11T09:00:43+05:30
-end_date: 2019-07-11T09:00:43+05:30
+start_date: 2017-10-03T09:00:43+05:30
+end_date: 2018-12-14T09:00:43+05:30
 template: post
 title: DeCurtis Corporation
 subtitle: Team Lead - Engineering and Design

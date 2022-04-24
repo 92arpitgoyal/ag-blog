@@ -54,7 +54,7 @@ export default class ProductPortfolio extends React.Component {
     }
 
     render() {
-        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'works'), 'frontmatter.date', 'desc');
+        let display_posts = _.orderBy(_.get(this.props, 'pageContext.pages').filter(page => page.relativeDir === 'works'), 'frontmatter.start_date', 'desc');
         const featured_posts = display_posts.filter(page => _.get(page, 'frontmatter.is_featured'))
         const non_featured_posts = display_posts.filter(page => !_.get(page, 'frontmatter.is_featured'))
         return (

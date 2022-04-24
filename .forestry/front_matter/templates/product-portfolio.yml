@@ -8,6 +8,11 @@ fields:
   description: The title of the page.
   config:
     required: true
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
 - name: excerpt
   type: textarea
   default: ''
@@ -41,10 +46,5 @@ fields:
   default: product-portfolio
   config:
     required: true
-- name: subtitle
-  type: text
-  config:
-    required: false
-  label: Subtitle
 pages:
 - src/pages/product-portfolio.md

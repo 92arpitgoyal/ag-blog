@@ -1,5 +1,5 @@
 ---
-title: Product Portfolio
+title: Case Studies
 sections: []
 menus:
   main:
@@ -11,5 +11,6 @@ excerpt: Here's my Product Portfolio, this includes all the projects I did as a 
   Program.
 keywords: '"arpit", "goyal", "mumbai", "Jaipur", "Product Manager", "UX designer",
   "india", "developer", "frontend", "arpit goyal", "goyalarpit", "arpitgoyal"'
+subtitle: ''
 
 ---

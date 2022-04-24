@@ -16,36 +16,9 @@ export default class ProductPortfolio extends React.Component {
       return (
         <article key={post_idx} className="work-card">
           <div className="">
-            {/*_.get(post, 'frontmatter.thumb_img_path') && 
-              (
-                <a {...linkAttributes} className="post-card-thumbnail" href={safePrefix(_.get(post, 'url'))}>
-                  <img className="thumbnail" src={safePrefix(_.get(post, 'frontmatter.thumb_img_path'))} alt={_.get(post, 'frontmatter.title')} />
-                </a>
-              )
-            */}
-            {/*<div className="post-card-content">*/}
-              <div className="container is-fluid">
-                <div className="columns is-vcentered">
-                  <div className="column is-three-fifths">
-                    <header className="post-header is-marginless">
-                      {/*<div className="post-meta">
-                        <time className="published"
-                        dateTime={moment(_.get(post, 'frontmatter.date')).strftime('%Y-%m-%d %H:%M')}>{moment(_.get(post, 'frontmatter.date')).strftime('%B %d, %Y')}</time>
-                      </div>*/}
-                      <h2 className="post-title is-marginless">{_.get(post, 'frontmatter.title')}</h2>
-                    </header>
-                  </div>
-                  <div className="column is-two-fifths">
-                    <div className="post-excerpt">
-                      <p>{_.get(post, 'frontmatter.excerpt')}</p>
-                      <p className="read-more">
-                        <a {...linkAttributes} className="button is-primary is-outlined" href={safePrefix(_.get(post, 'url'))}>Take a look</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            {/*</div>*/}
+            <div className="container is-fluid is-vcentered">
+              <h2 className="post-title is-marginless">{_.get(post, 'frontmatter.title')}</h2>
+            </div>
             <div className="container is-fluid">
               {htmlToReact(_.get(post, 'frontmatter.description'))}
               <div className="columns is-vcentered">
@@ -58,6 +31,7 @@ export default class ProductPortfolio extends React.Component {
                 })}
               </div>
             </div>
+            <a {...linkAttributes} className="button is-primary is-outlined" href={safePrefix(_.get(post, 'url'))}>Read more</a>
           </div>
         </article>
       )

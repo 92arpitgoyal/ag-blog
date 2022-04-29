@@ -23,5 +23,3 @@ fields:
   default: contact
   config:
     required: true
-pages:
-- src/pages/contact.md

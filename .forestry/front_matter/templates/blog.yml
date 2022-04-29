@@ -41,5 +41,3 @@ fields:
   default: blog
   config:
     required: true
-pages:
-- src/pages/blog.md

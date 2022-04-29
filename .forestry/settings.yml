@@ -24,7 +24,6 @@ sections:
   label: Pages
   create: all
   match: "*"
-  exclude: "{index.md,work-portfolio.md,product-portfolio.md,contact.md,blog.md}"
   templates:
   - page
 - type: directory

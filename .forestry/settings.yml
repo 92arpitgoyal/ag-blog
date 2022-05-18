@@ -34,12 +34,12 @@ sections:
   templates:
   - post
 - type: directory
-  path: src/pages/products
-  label: Products
+  path: src/pages/case-studies
+  label: Case Studies
   create: all
   match: "**/*"
   templates:
-  - product
+  - case-studies
 - type: directory
   path: src/pages/works
   label: Works

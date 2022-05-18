@@ -1,0 +1,48 @@
+---
+label: Case Studies
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the page.
+  config:
+    required: true
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: excerpt
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: Meta Description
+- name: keywords
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Keywords
+  description: meta keywords
+- type: blocks
+  name: sections
+  label: Sections
+  description: Home page sections
+  template_types:
+  - intro
+- type: text
+  name: template
+  label: Template
+  hidden: true
+  default: product-portfolio
+  config:
+    required: true

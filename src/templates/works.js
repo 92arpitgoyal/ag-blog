@@ -6,7 +6,7 @@ import components, {Layout} from '../components/index';
 import safePrefix from '../utils/safePrefix';
 import htmlToReact from '../utils/htmlToReact';
 
-export default class ProductPortfolio extends React.Component {
+export default class WorkPortfolio extends React.Component {
     getList(post, post_idx) {
       let linkAttributes = {}
       if (_.get(post, 'frontmatter.is_external')) {

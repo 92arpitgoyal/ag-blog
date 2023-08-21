@@ -14,8 +14,15 @@ Use the [Rosetta terminal](https://stackoverflow.com/a/67813764/2467940)
 ```
 rm -rf node_modules
 rm package-lock.json
+rm -rf public
+
 nvm install 10
 nvm use 10
+
+npm cache verify
+npm cache clean
+
+
 npm i
 npm run build
 npm run develop

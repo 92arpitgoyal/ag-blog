@@ -20,7 +20,7 @@ nvm install 10
 nvm use 10
 
 npm cache verify
-npm cache clean
+npm cache clean --force
 
 
 npm i

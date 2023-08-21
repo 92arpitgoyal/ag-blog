@@ -9,12 +9,14 @@
 
 Uses Gatsby 2
 
-Use Rosetta terminal for following commands:
+Use the [Rosetta terminal](https://stackoverflow.com/a/67813764/2467940)
 
+```
 rm -rf node_modules
 rm package-lock.json
 nvm install 10
 nvm use 10
 npm i
-
-Node version: v14.21.3
+npm run build
+npm run develop
+```

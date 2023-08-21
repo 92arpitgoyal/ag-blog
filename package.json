@@ -10,7 +10,7 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "@babel/runtime": "^7.22.10",
+    "@babel/runtime": "7.0.0-beta.55",
     "@stackbit/gatsby-plugin-menus": "0.0.3",
     "@vizuaalog/bulmajs": "^0.9.0",
     "bulma": "^0.7.5",

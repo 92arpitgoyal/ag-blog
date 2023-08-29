@@ -33,6 +33,6 @@ command = "./ssg-build.sh"
   force = true
 [[redirects]]
   from = "/resume"
-  to = "https://goo.gl/a4cyCw"
+  to = "https://drive.google.com/file/d/0B1pz4JVn5F_9QVR4NkRCTEowUmM/view?usp=drive_link&resourcekey=0-kmqmOpYeJtpraP64pyCklw"
   status = 200
   force = true

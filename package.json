@@ -1,5 +1,8 @@
 {
   "name": "arpit-goyal-website",
+  "engines": {
+    "node": "10.x"
+  },
   "description": "Arpit Goyal blog and portfolio",
   "version": "1.0.0",
   "license": "MIT",

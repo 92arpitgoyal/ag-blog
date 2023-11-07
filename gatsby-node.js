@@ -15,3 +15,15 @@ const isFileModule = require("gatsby/dist/schema/infer/is-file");
 isFileModule.isFile = function shouldInfer() {
     return false;
 };
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        'babel-runtime/helpers/inherits': require.resolve(
+          'babel-runtime/helpers/inherits'
+        ),
+      },
+    },
+  });
+};

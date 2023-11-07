@@ -25,8 +25,8 @@ export default class WorkPortfolio extends React.Component {
               <div className="columns">
                 {_.map(_.get(post, 'frontmatter.content_images'), url => {
                     return (
-                      <div className="column">
-                        <img className="thumbnail" src={safePrefix(url)} />
+                      <div className="column" key={safePrefix(url)}>
+                        <img className="thumbnail" src={safePrefix(url)} alt={safePrefix(url)} />
                       </div>
                     )
                 })}
